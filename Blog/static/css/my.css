@@ -1,0 +1,86 @@
+.my_padding_tb_min{
+    padding-top: 0.2em !important;
+    padding-bottom: 0.2em !important;
+}
+.my_padding_tb {
+    padding-top: 3em !important;
+    padding-bottom: 3em !important;
+}
+.my_padding_tb_max{
+    padding-top: 5em !important;
+    padding-bottom: 5em !important;
+}
+.my_text {
+    letter-spacing: 1px !important;
+    font-weight: 300 !important;
+    letter-spacing: 1px !important;
+}
+.my_text_thin {
+    font-weight: 300 !important;
+}
+.my_text_spaced {
+    letter-spacing: 1px !important;
+}
+.my_text_line {
+    line-height: 1.8 !important;
+}
+.my_opacity_min {
+    opacity: 0.8;
+}
+/*------------------display--------------------*/
+.my_inline_block {
+    display: inline-block !important;
+}
+/*-------------------------margin--------------------*/
+.my_margin_small {
+    margin-top: 0.3em !important;
+    margin-bottom: 0.3em !important;
+}
+.my_margin {
+    margin-top: 2.5em !important;
+    margin-bottom: 2.5em !important;
+}
+.my_margin_tiny {
+    margin-bottom: 0.2em !important;
+}
+
+
+.my_container_small{
+    max-width: 60em !important;
+    margin: auto !important;
+}
+
+.my_padding_lr_min {
+    padding-left: 4em !important;
+    padding-right: 4em !important;
+}
+.my_black {
+    color:#333;
+}
+.my_icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.my_mobile_show {
+    display: none !important;
+}
+@media screen and (max-width: 768px){
+    .my_mobile {
+        display: none !important;
+    }
+    .my_mobile_show {
+        display: block !important;
+    }
+    .my_padding_lr_min {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .my_mobile_widen {
+        width: 100% !important;
+    }
+    .my_mobile_lr_clear {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
